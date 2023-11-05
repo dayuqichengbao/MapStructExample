@@ -17,6 +17,7 @@ public interface SourceTargetMapper {
     @Mapping(target = "stringConstant", constant = "Constant Value")
     @Mapping(target = "integerConstant", constant = "14")
     @Mapping(target = "longWrapperConstant", constant = "3001L")
-    @Mapping(target = "dateConstant", dateFormat = "yyyy-MM-dd", constant = "2023-09-01-")
+    @Mapping(target = "orderTypeEnum", constant = "INIT")
+    @Mapping(target = "dateConstant", dateFormat = "yyyy-MM-dd", constant = "2023-09-01")
     Target sourceToTarget(Source s);
 }

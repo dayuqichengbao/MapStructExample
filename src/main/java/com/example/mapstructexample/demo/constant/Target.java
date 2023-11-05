@@ -23,4 +23,5 @@ public class Target {
 
     private Date dateConstant;
 
+    private OrderTypeEnum orderTypeEnum;
 }
